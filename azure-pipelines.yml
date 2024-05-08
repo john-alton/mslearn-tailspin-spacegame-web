@@ -50,7 +50,7 @@ steps:
   inputs:
     command: 'test'
     arguments: '--nobuild --configuration $(buildConfiguration)'
-    publishTestResults: ture
+    publishTestResults: true
     project: '**/*.Tests.csproj'
 
 - task: DotNetCoreCLI@2
